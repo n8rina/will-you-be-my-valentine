@@ -4,8 +4,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+    background-color: #ecc9ca;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Playwrite HU', cursive;
     flex-direction: column;
   }
   
@@ -15,7 +16,14 @@ body {
   
   h1 {
     font-size: 2.5em;
-    color: #d32f2f;
+    color: #df1a42;
+  }
+
+  .text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #af3b4d;
   }
   
   .buttons {
@@ -23,23 +31,29 @@ body {
   }
   
   .yes-button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     font-size: 1.5em;
     padding: 10px 20px;
     margin-right: 10px;
-    background-color: #4caf50;
+    /* background-color: #638f64; */
+    /* color: white; */
+    background-color: #df1a42;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
   }
   
   .no-button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     font-size: 1.5em;
     padding: 10px 20px;
-    background-color: #f44336;
+    background-color: #f05f7f;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
   }
   
