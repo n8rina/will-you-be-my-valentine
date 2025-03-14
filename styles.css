@@ -19,6 +19,13 @@ body {
     color: #df1a42;
   }
 
+  .note {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #c55061;
+  }
+
   .text {
     font-family: 'DM Sans', sans-serif;
     font-size: 1em;
